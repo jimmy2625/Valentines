@@ -1,0 +1,41 @@
+body {
+    background-image: url('hearts.jpg');
+}
+
+.container {
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    padding: 70px 0;
+    background-color: white;
+    border: 2px solid #ff1565;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button {
+    background-color: #ff1565;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button:hover {
+    background-color: #f83a7c;
+    transform: scale(1.05);
+}
+
+h1 {
+    color: #ff1565;
+}
+
+h2 {
+    color: #ff1565;
+}
